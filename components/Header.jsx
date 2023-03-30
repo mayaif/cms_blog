@@ -22,9 +22,9 @@ function Header() {
             <span className='cursor-pointer font-bold text-4xl text-white'>
               <Image 
                 className='logo'
-                height={150} 
-                width={150}
-                src='/logo2.1.png'
+                height={200} 
+                width={200}
+                src='/logo.png'
                 alt="code_mind"
                 priority
               />
