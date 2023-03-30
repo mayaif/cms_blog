@@ -7,11 +7,11 @@ import { FeaturedPostCard } from '../components'
 
 const responsive = {
   superLargeDesktop: {
-    breakpoint: { max: 4000, min: 1024 },
+    breakpoint: { max: 4000, min: 1366 },
     items: 5,
   },
   desktop: {
-    breakpoint: { max: 1024, min: 768 },
+    breakpoint: { max: 1366, min: 768 },
     items: 3,
   },
   tablet: {
