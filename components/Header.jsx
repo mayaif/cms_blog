@@ -16,15 +16,15 @@ function Header() {
   
   return (
     <div className='container mx-auto px-10 mb-8'>
-      <div className='border-b-2 w-full inline-block border-indigo-400 py-5'>
+      <div className='border-b-2 w-full inline-block border-indigo-500 py-5'>
         <div className='md:float-left block'>
           <Link href="/">
             <span className='cursor-pointer font-bold text-4xl text-white'>
               <Image 
                 className='logo'
-                height={200} 
-                width={200}
-                src='/logo.png'
+                height={150} 
+                width={150}
+                src='/logo2.1.png'
                 alt="code_mind"
                 priority
               />
