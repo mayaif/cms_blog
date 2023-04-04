@@ -16,6 +16,16 @@ const PostDetail = ({post}) => {
       if(obj.underline) {
         modifiedText = (<u key={index}>{text}</u>)
       }
+      if(obj.code) {
+        modifiedText = (<code key={index}>{text}</code>)
+      }
+      if(obj.link) {
+        modifiedText = (<link key={index}>{text}</link>)
+      }
+      if(obj.table) {
+        modifiedText = (<table key={index}>{text}</table>)
+      }
+     
     }
 
     switch(type) {
