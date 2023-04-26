@@ -12,7 +12,7 @@ function CommentsForm({slug}) {
   const emailEl = useRef()
   const storeDataEl = useRef()
 
-  //a ComponentDidMount useffect or when happen only one time when the component renders for the first time
+  //it occurs once during the component's initial render.
   useEffect(() => {
     nameEl.current.value = window.localStorage.getItem('name')
     emailEl.current.value = window.localStorage.getItem('email')
